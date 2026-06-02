@@ -1,6 +1,6 @@
 # Lease-a-Car API
 
-This is a simple Spring Boot REST API project for managing customers and cars for a leasing system.
+This is a Spring Boot REST API project for managing customers and cars for a leasing system.
 
 ---
 
@@ -21,6 +21,7 @@ This is a simple Spring Boot REST API project for managing customers and cars fo
 - model
   - - Car.java
   - - Customer.java
+- service
 
 ---
 
