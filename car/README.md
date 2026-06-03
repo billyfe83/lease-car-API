@@ -18,10 +18,13 @@ This is a Spring Boot REST API project for managing customers and cars for a lea
  - controller
   - - CarController.java
   - - CustomerController.java
+  - - LeaseController
 - model
   - - Car.java
   - - Customer.java
+  - - LeasRequest
 - service
+  - - LeaseService
 
 ---
 
@@ -50,7 +53,9 @@ This is a Spring Boot REST API project for managing customers and cars for a lea
 
 - GET `/cars` → Get all cars
 - POST `/cars` → Add a new car
-
+-
+### Lease APIs
+- POST `/calculate` → calculation
 ---
 
 ## How to Run the Project
